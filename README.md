@@ -8,7 +8,7 @@
   <h3 align="center">Red Dragon AI Advanced Computer Vision Course Project Submission</h3>
 
   <p align="center">
-    Singlish to English Translation
+    Ship Vessels Recognition
   </p>
 </div>
 
