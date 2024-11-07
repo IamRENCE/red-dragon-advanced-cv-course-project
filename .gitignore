@@ -1,0 +1,5 @@
+# Ignore Windows batch files
+*.bat
+
+# Ignore the '.ipynb_checkpoints' directory
+.ipynb_checkpoints/
