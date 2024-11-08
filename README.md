@@ -30,11 +30,11 @@ This project focuses on detecting civilian and warship objects in images using a
 
 The dataset for training, validation, and testing is sourced from [Mcships GitHub repository](https://github.com/ZhengYitong2333/Mcships). This dataset has been converted into the YOLO format using the provided script in the data source's respository.
 
-The model is fine-tuned using a pre-trained YOLOv5 model (`yolo11n.pt`) to improve detection accuracy and reduce training time. This pre-trained model was selected for its effectiveness in transfer learning, leveraging pre-existing knowledge from large datasets like COCO for better generalization to our specific use case.
+The model is fine-tuned using a pre-trained YOLOv11 model (`yolo11n.pt`) to enhance detection accuracy while minimizing training time. This pre-trained model was selected due to its transfer learning capabilities, allowing it to leverage pre-existing knowledge from large datasets, such as COCO, for improved generalization to our specific use case.
 
 ### The Project Workflow:
 
-- **Model Training & Evaluation**: The YOLOv5 model is fine-tuned on the custom dataset, with evaluation metrics based on the trained model's performance on the validation set.
+- **Model Training & Evaluation**: The YOLOv11 model is fine-tuned on the custom dataset, with evaluation metrics based on the trained model's performance on the validation set.
 - **Inference**: The final model is tested on nine random images from the test set, and the results demonstrate that the fine-tuned model performs well, with accurate detection of both civilian and warship objects.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
