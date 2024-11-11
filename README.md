@@ -36,6 +36,7 @@ The model is fine-tuned using a pre-trained YOLOv11 model (`yolo11n.pt`) to enha
 
 - **Model Training & Evaluation**: The YOLOv11 model is fine-tuned on the custom dataset, with evaluation metrics based on the trained model's performance on the validation set.
 - **Inference**: The final model is tested on nine random images from the test set, and the results demonstrate that the fine-tuned model performs well, with accurate detection of both civilian and warship objects.
+- **Video Tracking**: In the final step, video tracking is applied to detect and track civilian and warship objects across video frames. Using maritime surveillance videos from YouTube (MP4s Files: [1](https://www.youtube.com/watch?v=BTIrd4OBdzo&ab_channel=HarvestTechnology), [2](https://www.youtube.com/watch?v=iNgl7MoHxk0&ab_channel=SilentSentinel), [3](https://www.youtube.com/watch?v=yTxM6Exl9p4&ab_channel=CovertCabal)), both BoT-SORT and ByteTrack trackers are evaluated for their effectiveness in maintaining object identity and tracking moving targets over time.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
